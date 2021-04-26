@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: qameta;
+        src: url('../fonts/qameta-regular.woff2') format('woff2');
+        src: url('../fonts/qameta-regular.woff') format('woff');
+        font-weight: 400;
+        font-style: normal;
+        }
+    
+     @font-face {
+        font-family: qameta;
+        src: url('../fonts/qameta-medium.woff2') format('woff2');
+        src: url('../fonts/qameta-medium.woff') format('woff');
+        font-weight: 500;
+        font-style: normal;
+        }
+
+    @font-face {
+        font-family: qameta;
+        src: url('../fonts/qameta-bold.woff') format('woff');
+        src: url('../fonts/qameta-bold.woff2') format('woff2');
+        font-weight: 700;
+        font-style: normal;
+        }
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'qameta' !important;
+}
